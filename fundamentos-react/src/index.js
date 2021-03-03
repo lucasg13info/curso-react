@@ -10,4 +10,5 @@ ReactDOM.render(
         { tag }
     </div>, 
     document.getElementById('root')
-)
+
+    )
