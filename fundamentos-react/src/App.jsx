@@ -4,10 +4,10 @@ import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
 
-export default function App (props){
+export default _ =>{
     return (
         <div id>
-            <h1>Fundamentos React</h1>
+            <h1>Fundamentos React (Arrow_)</h1>
         <Fragmento/>         
         <ComParametro titulo="Situação do Aluno" 
             aluno= "Pedro" 
