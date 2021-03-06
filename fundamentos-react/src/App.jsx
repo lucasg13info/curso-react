@@ -4,8 +4,7 @@ import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
 
-export default _ =>{
-    return (
+export default _ =>
         <div id>
             <h1>Fundamentos React (Arrow_)</h1>
         <Fragmento/>         
@@ -21,5 +20,3 @@ export default _ =>{
         />
         <Primeiro></Primeiro>         
     </div>
-    );
-}
