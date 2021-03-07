@@ -3,6 +3,8 @@
     border: 3px solid red;
     border-radius: 10px;
     overflow: hidden;
+
+    margin: 10px;
     
 
 }
@@ -16,5 +18,5 @@
 .Card .Content{
     background-color: white;
     color: black;
-    padding: 20px;
+    padding: 10px;
 }

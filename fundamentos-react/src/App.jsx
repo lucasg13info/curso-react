@@ -13,23 +13,24 @@ export default () =>(
 
         <Card titulo="Desafio Aleatório">
             <Aleatorio min= {1} max={60}/>
-        </Card>
-        
-        
+        </Card>    
 
-        
+        <Card titulo="Fragmento">
+            <Fragmento/> 
+        </Card>  
     
-        <Fragmento/>         
-        <ComParametro titulo="Situação do Aluno" 
-            aluno= "Pedro" 
-            nota= {2.3}
-        />
+        <Card titulo="ComParametro">
+            <ComParametro titulo="Situação do Aluno" 
+                aluno= "Pedro" 
+                nota= {2.3}
+            />
+        </Card> 
 
-        <ComParametro titulo="Situação do Aluno" 
-            aluno= "Maria" 
-            nota= {9.9} 
+        <Card titulo="Primeiro Componente">
+            <Primeiro></Primeiro> 
+        </Card>  
+
         
-        />
-        <Primeiro></Primeiro>         
+                
     </div>
 );
