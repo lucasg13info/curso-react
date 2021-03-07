@@ -8,16 +8,16 @@ import Fragmento from './components/basicos/Fragmento';
 
 
 export default () =>(
-        <div id>
+        <div id="root">
             <h1>Fundamentos React (Arrow_)</h1>
 
-        <Card titulo="Exemplo de Card">
-
+        <Card titulo="Desafio Aleatório">
+            <Aleatorio min= {1} max={60}/>
         </Card>
         
         
 
-        <Aleatorio min= {1} max={60}/>
+        
     
         <Fragmento/>         
         <ComParametro titulo="Situação do Aluno" 
