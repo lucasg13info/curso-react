@@ -1,3 +1,4 @@
+import './App.css'
 import React from 'react';
 
 import Card from './components/basicos/layout/Card'
@@ -8,9 +9,10 @@ import Fragmento from './components/basicos/Fragmento';
 
 
 export default () =>(
-        <div id="root">
+        <div className="App">
             <h1>Fundamentos React</h1>
 
+        <div className="Cards"> 
         <Card titulo="#04 -Desafio Aleatório">
             <Aleatorio min= {1} max={60}/>
         </Card>    
@@ -30,7 +32,6 @@ export default () =>(
             <Primeiro></Primeiro> 
         </Card>  
 
-        
-                
+        </div>     
     </div>
 );
