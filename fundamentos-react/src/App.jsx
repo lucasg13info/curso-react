@@ -15,7 +15,7 @@ export default () =>(
 
         <div className="Cards"> 
 
-        <Card titulo="#05 - Componente com Filhos" color="#FA6900">
+        <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
             <Familia></Familia>
         </Card>  
 
