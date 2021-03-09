@@ -19,8 +19,8 @@ export default () =>(
         <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
             <Familia sobrenome="Fereira1">
                 <FamiliaMembro nome="Pedro"/>
-                {/* <FamiliaMembro nome ="Ana"/>
-                <FamiliaMembro nome="Gustavo"/> */}
+                <FamiliaMembro nome ="Ana"/>
+                <FamiliaMembro nome="Gustavo"/>
             </Familia>
 
         </Card>  
