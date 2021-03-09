@@ -1,4 +1,4 @@
-import React, {cloneElement} from 'react'
+import React, { cloneElement } from 'react'
 
 
 export default props => {
@@ -8,7 +8,7 @@ export default props => {
             {props.children.map((child, i) => {
                 return cloneElement(child, { ...props, key: i });
             })}
-            
+
         </div>
     );
 };
