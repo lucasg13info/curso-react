@@ -4,9 +4,9 @@ import FamiliaMembro from'./FamiliaMembro'
 export default props => {
     return (
         <div>
-            <FamiliaMembro nome="Pedro" sobrenome="Ferreira"/>
-            <FamiliaMembro nome ="Ana" sobrenome="Ferreira"/>
-            <FamiliaMembro nome="Gustavo" sobrenome="Ferreira"/>
+            <FamiliaMembro nome="Pedro" sobrenome={props.sobrenome}/>
+            <FamiliaMembro nome ="Ana" sobrenome={props.sobrenome}/>
+            <FamiliaMembro nome="Gustavo" sobrenome={props.sobrenome}/>
         </div>
     )
 }
