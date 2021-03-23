@@ -5,6 +5,7 @@ export default props => {
         <div>
             <div>Filho</div>
             <button>Fornecer Informações</button>
+        
         </div>
     
     )
