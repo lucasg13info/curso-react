@@ -11,7 +11,6 @@ export default props => {
             }>
                 Fornecer Informações
             </button>
-        
         </div>
     
     )
