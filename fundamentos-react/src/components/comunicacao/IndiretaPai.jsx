@@ -5,12 +5,14 @@ export default props => {
 
 
     //Nome idade nerd
+    function forcencerInformacoes(nome, idade, nerd){
+        console.log(nome, idade, nerd)
+    }
 
     return (
         <div>
-            Pai
-
-            <IndiretaFilho/>
+            <div>Pai</div>
+            <IndiretaFilho quandoClicar={ forcencerInformacoes }/>
         </div>
     
     )
