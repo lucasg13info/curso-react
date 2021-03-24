@@ -9,7 +9,13 @@ export default (props) => {
     }
     return (
         <div className="Input">
-            <input value={ valor } onChange={quandoMudar}/>
+            <h2>{valor}</h2>
+            <div >
+                <input value={ valor } onChange={quandoMudar}/>
+                <input value={ valor } readOnly/>
+                <input value={ undefined} />
+            </div>
+            
         </div>
     )
 }
