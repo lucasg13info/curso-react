@@ -1,9 +1,15 @@
-import React from 'react';
+import "./input.css"
+import React, {useState }from 'react';
 
 export default props => {
+
+
+    const [valor, setValor] = useState('Inicial')
+    
+    
     return (
-        <div>
-            Input
+        <div className="Input">
+            <input value={ valor }/>
         </div>
     )
 }
