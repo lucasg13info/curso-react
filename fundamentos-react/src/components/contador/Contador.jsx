@@ -2,6 +2,7 @@ import "./Contador.css"
 import React, {Component} from 'react'
 
 import Display from"./Display"
+import Botoes from"./Botoes"
 
 class Contador extends Component{
 
@@ -44,8 +45,7 @@ class Contador extends Component{
                         onChange ={this.setPasso}  />
                 
                 </div>
-                <button onClick={this.inc}> + </button>
-                <button onClick={this.dec}> - </button>
+                <Botoes incrementar={this.inc} decrementar={this.dec}/>
             </div>
             
         )
