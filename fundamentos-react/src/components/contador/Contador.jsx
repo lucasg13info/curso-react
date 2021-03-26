@@ -6,18 +6,16 @@ class Contador extends Component{
             numero: this.props.numeroInicial
         };
 
-        constructor(props){
-            super(props)
 
-            this.inc = this.inc.bind(this)
-            
-        }
     
-        inc(){
+        inc = () => {
             this.setState({
                 numero: this.state.numero +1
             })
         }
+
+
+        
     render() {
         return(
             <div>
