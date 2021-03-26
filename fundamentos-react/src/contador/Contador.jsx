@@ -7,6 +7,7 @@ class Contador extends Component{
             <div>
                 <h2>Contador</h2>
             </div>
+            
         )
     }
 
