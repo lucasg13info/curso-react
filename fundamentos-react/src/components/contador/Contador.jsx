@@ -1,3 +1,4 @@
+import "./Contador.css"
 import React, {Component} from 'react'
 
 class Contador extends Component{
@@ -31,7 +32,7 @@ class Contador extends Component{
         
     render() {
         return(
-            <div>
+            <div className="Contador">
                 <h2>Contador</h2>
                 <h3> { this.state.numero } </h3>
                 <div>
