@@ -8,7 +8,7 @@ class Contador extends Component{
 
 
     
-        inc = () => {
+        inc(){
             this.setState({
                 numero: this.state.numero +1
             })
@@ -21,7 +21,7 @@ class Contador extends Component{
             <div>
                 <h2>Contador</h2>
                 <h3> { this.state.numero } </h3>
-                <button onClick={this.inc}> + </button>
+                <button onClick={e => this.inc()}> + </button>
             </div>
             
         )
