@@ -10,6 +10,7 @@ class Contador extends Component{
             super(props)
 
             this.inc = this.inc.bind(this)
+            
         }
     
         inc(){
