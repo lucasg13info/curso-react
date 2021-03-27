@@ -19,15 +19,21 @@ export default props => {
         return numeros
     } 
 
-
-    const qtde = props.qtde || 6
+    const [qtde, setQtde] = useState(props.qtde || 6)
     const numerosIniciais = Array(qtde).fill(0)
     const [numeros, setNumeros] = useState(numerosIniciais)
+    
     
     return (
         <div>
             <h2>Mega</h2>
             <h3>{  numeros.join (' ') }</h3>
+            <div>
+                <label >Qtde de números</label>
+                <input type="number" value={ qtde }
+                onChange={ e=> setQtde(+e.target.value)}/>
+
+            </div>
             <button onClick={_ => setNumeros(gerarNumeros(qtde))}>
                 Gerar Números
             </button>
