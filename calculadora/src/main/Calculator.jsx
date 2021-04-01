@@ -14,6 +14,8 @@ const intialState = {
 
 export default class Calculator extends Component {
 
+    state = { ...intialState }
+
     constructor(props){
         super(props)
         this.clearMemory = this.clearMemory.bind(this)
@@ -21,7 +23,7 @@ export default class Calculator extends Component {
         this.addDigit = this.addDigit.bind(this)
     }
     clearMemory() {
-        console.log('limpar')
+        this.setState({...intialState})
     }
 
     setOperation(operation){
@@ -36,7 +38,7 @@ export default class Calculator extends Component {
     render() {
         return(
             <div className="calculator">
-                <Display value={ 100 }/>
+                <Display value={ this.state.displaValue }/>
                 <Button label= "AC" click={this.clearMemory} triple/>
                 <Button label= "/" click={this.setOperation} operation/>
                 <Button label= "7" click={this.addDigit}/>
