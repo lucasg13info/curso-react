@@ -8,5 +8,6 @@
     background: var(--bg-button);
     border: none;
     border-right: var(--border-button);
-    border-bottom: var(--border-button)
+    border-bottom: var(--border-button);
+    outline: none;
 }
