@@ -35,7 +35,7 @@ export default class Calculator extends Component {
 
             const values = [... this.state.values]
             
-
+            
             values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`)
             values[1] = 0
 
