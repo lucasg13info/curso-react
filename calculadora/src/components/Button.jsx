@@ -3,6 +3,7 @@ import './Button.css'
 
 export default props => {
     let classes = 'button '
+
     classes += props.operation ? 'operation' : ''
     classes += props.double ? 'double' : ''
     classes += props.triple ? 'triple' : ''
@@ -10,10 +11,9 @@ export default props => {
     return(
 
      <button 
-        onCllick={e => props.click && props.click(props.label)}
-     classname={classes}>
+        onClick={e => props.click && props.click(props.label)}
+        className={classes}>
         { props.label }
     </button>
     )
 }
-           
